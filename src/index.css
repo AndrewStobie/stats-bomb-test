@@ -1,7 +1,8 @@
 body {
+  min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,4 +12,62 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  min-height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/src/assets/fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/src/assets/fonts/Roboto_Slab/RobotoSlab-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/src/assets/fonts/Roboto_Slab/RobotoSlab-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/src/assets/fonts/Roboto_Slab/RobotoSlab-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/src/assets/fonts/Roboto_Slab/RobotoSlab-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/src/assets/fonts/Roboto_Slab/RobotoSlab-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/src/assets/fonts/Roboto_Slab/RobotoSlab-ExtraLight.ttf');
+  font-weight: 200
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/src/assets/fonts/Roboto_Slab/RobotoSlab-Thin.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/src/assets/fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
 }

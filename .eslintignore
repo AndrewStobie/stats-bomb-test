@@ -1,0 +1,5 @@
+node_modules/**
+src/lambda/**
+src/setupProxy.js
+src/serviceWorker.js
+config-overrides.js
